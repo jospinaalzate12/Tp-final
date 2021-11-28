@@ -1,0 +1,33 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.form-control.me-2{
+width: 240px;
+}
+header{
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        background-color:white;
+        width: 100%;
+    
+}
+.nav-link{
+    font-size: 25px;
+    color:red;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+header .container .logo{
+    width: 100px;
+    height: 60px;
+}

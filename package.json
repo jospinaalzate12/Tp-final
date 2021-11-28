@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "mi primera pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Johnatan Alzate",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "expres": "0.0.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.3.3-rc.0",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {}
+}
